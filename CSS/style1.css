@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #343541;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    width: 35%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    color: white;
+    font-family: inter;
+    font-size: 17px;
+    margin-bottom: 19px;
+}
+
+.card > img{
+    width: 45px;
+    height: 45px;
+}
+
+.botoes > a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#botao1{
+    width: 66px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    background: #0FA47F;
+    font-family: inter;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+
+#botao2{
+    width: 75px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    background: #0FA47F;
+    font-family: inter;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+
+
