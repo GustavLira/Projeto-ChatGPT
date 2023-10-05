@@ -47,19 +47,36 @@ main{
     text-align: center;
 }
 
-.card > label{
-    color: #0FA47F;
+.laabel{
+    position: relative;
 }
 
-.card > input{
+.laabel > span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+
+}
+
+.laabel > input{
     width: 320px;
     height: 54px;
     margin-bottom: 14px;
     border: 1px solid #C3C8CF;
     border-radius: 5px;
+    color: black;
+    font-size: 15pt;
+    padding-left: 10px;
+    outline: none;
 }
 
-input:hover{
+.laabel input:valid ~ span,
+.laabel input:focus ~ span{
+    transform: translateX(-30px) translateY(-20px);
+    color: red;
+}
+.card input:hover{
     border-color: #0FA47F;
 }
 
