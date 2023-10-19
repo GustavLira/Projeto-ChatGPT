@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #343541;
+    display: flex;
+}
+
+.sidebar{
+    width: 70px;
+    height: 100%;
+    font-size: 10pt;
+    background-color: #202123;
+    box-sizing: border-box;
+    transition: ease-in-out 0.3s;
+    white-space: nowrap;
+    color: #fff;
+    overflow: hidden;
+}
+
+.sidebar:hover{
+    width: 370px;
+    transition: ease-in-out 0.3s;
+}
+
+.sidebar:hover > .item > .text{
+    opacity: 1;
+}
+
+.chatnovo{
+    width: 285px;
+    height: 30%;
+    padding-top: 4px;
+    padding-left: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #202123;
+    background-color: none;
+    border-radius: 6px;
+    font-size: 12pt;
+}
+
+.sidebar:hover > .top > .chatnovo{
+    border-color: #444654;
+    transition: ease-in-out 0.5s;
+}
+
+
+
+.sidebar:hover > .top >.input1{
+    background-color: #343540;
+    border-radius: 6px;
+    transition: ease-in-out 0.5s;
+}
+
+.top{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input1{
+    width: 285px;
+    height: 30%;
+    padding-left: 15px;
+    display: flex;
+    position: relative;
+}
+
+.imgs{
+    background-color: #202123;
+    display: flex;
+    width: 24%;
+    height: 70%;
+    top: 7%;
+    left: 75%;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.sidebar:hover > .top > .input1 > .imgs{
+    background-color: #343540;
+    transition: ease-in-out 0.5s;
+}
+
+.sidebar:hover > .top > .input1 > .imgs > #img1{
+    cursor: pointer;
+}
+
+#img1{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 39.5%;
+    left: 14%;
+    overflow: hidden;
+}
+
+.sidebar:hover > .top > .input1 > .imgs > #img2{
+    cursor: pointer;
+}
+
+#img2{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 39.5%;
+    left: 64%; 
+    overflow: hidden;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.bot{
+    margin-top: 575px;
+    padding: 25px;
+}
+
+.item .icon{
+    width: 14px;
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 2.5px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.item .text{
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    transition-delay: .2s;
+    white-space: nowrap;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container > .dialogo{
+    width: 140%;
+    height: 55%;
+    color: white;
+    margin-top: -35px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > .dialogo > .dialogouser{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+}
+
+.container > .dialogo > .dialogouser > img{
+    left: 33.5%;
+    top: 45%;
+    margin-left: 0%;
+    position: absolute;
+}
+
+.container > .dialogo > .dialogouser > p{
+    left: 36%;
+    top: 49%;
+    position: absolute;
+}
+
+.container > .dialogo > .dialogogpt{
+    line-height: 30px;
+    background-color: #444654;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container > .dialogo > .dialogogpt > img{
+    left: 33.5%;
+    top: 22%;
+    margin-left: 0%;
+    position: absolute;
+}
+.container > .dialogo > .dialogogpt > p{
+    left: 36%;
+    top: 22%;
+    position: absolute;
+}
+
+.dialogo > .dialogogpt > .likes{
+    margin-right: -1000px;
+    margin-top: 45px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.dialogo > .dialogogpt > .likes > #like{
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.dialogo > .dialogogpt > .likes > #deslike{
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.container > .regen{
+    width: 184px;
+    height: 37px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container > .regen > button{
+    width: 184px;
+    height: 37px;
+    background: none;
+    padding-left: 24px;
+    border-radius: 4px;
+    border: 1px solid #444654;
+    color: #C5C5D1;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.container > .regen > img{
+    width: 14px;
+    top: 35%;
+    left: 7%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.container > .submits{
+    width: 768px;
+    height: 48px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 0px #303139;
+    position: relative;
+}
+
+.container > .submits > input{
+    width: 768px;
+    height: 48px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #40414E;
+    background-color: #40414E;
+    padding-left: 10px;
+    color: white;
+    font-size: 12pt;
+}
+
+.container > .submits > img{
+    width: 20px;
+    top: 28%;
+    left: 95.5%;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.container > .footer {
+    width: 920px;
+    height: 30px;
+    display: flex;
+    font-size: 9.5pt;
+    text-decoration: none;
+    color: #9A9B9F;
+    font-family: inter;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.container > .footer > a{
+    color: #9A9B9F;
+}

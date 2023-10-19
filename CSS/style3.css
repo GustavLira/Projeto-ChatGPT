@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap');
 
 
 *{
@@ -28,7 +28,7 @@ main{
 }
 
 .sidebar:hover{
-    width: 370px;
+    width: 350px;
     transition: ease-in-out 0.3s;
 }
 
@@ -53,68 +53,10 @@ main{
     transition: ease-in-out 0.5s;
 }
 
-
-
-.sidebar:hover > .top >.input1{
-    background-color: #343540;
-    border-radius: 6px;
-    transition: ease-in-out 0.5s;
-}
-
 .top{
     padding: 10px;
     display: flex;
     flex-direction: column;
-}
-.input1{
-    width: 285px;
-    height: 30%;
-    padding-left: 15px;
-    display: flex;
-    position: relative;
-}
-
-.imgs{
-    background-color: #202123;
-    display: flex;
-    width: 24%;
-    height: 70%;
-    top: 7%;
-    left: 75%;
-    text-align: center;
-    overflow: hidden;
-    position: absolute;
-}
-
-.sidebar:hover > .top > .input1 > .imgs{
-    background-color: #343540;
-    transition: ease-in-out 0.5s;
-}
-
-.sidebar:hover > .top > .input1 > .imgs > #img1{
-    cursor: pointer;
-}
-
-#img1{
-    width: 17px;
-    height: 17px;
-    position: absolute;
-    top: 39.5%;
-    left: 14%;
-    overflow: hidden;
-}
-
-.sidebar:hover > .top > .input1 > .imgs > #img2{
-    cursor: pointer;
-}
-
-#img2{
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    top: 39.5%;
-    left: 64%; 
-    overflow: hidden;
 }
 
 .item{
@@ -124,7 +66,7 @@ main{
 }
 
 .bot{
-    margin-top: 540px;
+    margin-top: 666px;
     padding: 25px;
 }
 
@@ -132,7 +74,7 @@ main{
     width: 14px;
     height: 30px;
     margin-right: 40px;
-    margin-left: 1px;
+    margin-left: 2.5px;
     flex-shrink: 0;
     cursor: pointer;
 }
@@ -157,99 +99,130 @@ main{
     overflow: hidden;
 }
 
-.container > .dialogo{
-    width: 140%;
-    height: 55%;
+.container > h1{
     color: white;
-    margin-top: -350px;
-    text-align: left;
+    font-family: inter;
+    font-size: 34px;
+    margin-top: 160px;
+}
+
+.container > .Card{
+    display: flex;
+    width: 75%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.container > .Card > .left > .jg1{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-size: 11pt;
+    margin-top: -80px;
 }
 
-.container > .dialogo > .dialogouser{
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 0px;
+.container > .Card > .left > .jg1 > h2{
+    margin-top: 15px;
 }
 
-.container > .dialogo > .dialogouser > img{
-    left: 28%;
-    top: 45%;
-    margin-left: 0%;
-    position: absolute;
-}
-
-.container > .dialogo > .dialogouser > p{
-    left: 32%;
-    top: 49%;
-    position: absolute;
-}
-
-.container > .dialogo > .dialogogpt{
-    line-height: 30px;
+.container > .Card > .left> .adc1 > .sup{
+    width: 300px;
+    height: 75px;
     background-color: #444654;
-    width: 100%;
-    height: 40%;
-    display: flex;
+    align-items: center;
+    padding-top: 17px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 13pt;
+}
+
+.container > .Card > .mid > .jg2{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
     justify-content: center;
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-size: 11pt;
+    margin-top: -80px;
 }
 
-.container > .dialogo > .dialogogpt > img{
-    left: 28%;
-    top: 22%;
-    margin-left: 0%;
-    position: absolute;
-}
-.container > .dialogo > .dialogogpt > p{
-    left: 32%;
-    top: 22%;
-    position: absolute;
+.container > .Card > .mid > .jg2 > h2{
+    margin-top: 15px;
 }
 
-#like{
-    left: 75%;
-    top: 22%;
-    position: absolute;
+.container > .Card > .mid> .adc2 > .sup{
+    width: 300px;
+    height: 75px;
+    background-color: #444654;
+    align-items: center;
+    padding-top: 17px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 13pt;
 }
 
-#deslike{
-    left: 76.6%;
-    top: 22%;
-    position: absolute;
+.container > .Card > .right > .jg3{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-size: 11pt;
+    margin-top: -55px;
 }
 
-.container > .regen{
-    width: 184px;
-    height: 37px;
-    margin-top: 300px;
-    margin-bottom: 30px;
-    position: relative;
+.container > .Card > .right > .jg3 > img{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
 }
 
-.container > .regen > button{
-    width: 184px;
-    height: 37px;
-    background: none;
-    padding-left: 24px;
-    border-radius: 4px;
-    border: 1px solid #444654;
-    color: #C5C5D1;
-    font-size: 10pt;
-    cursor: pointer;
+.container > .Card > .right > .jg3 > h2{
+    margin-top: 15px;
 }
 
-.container > .regen > img{
-    width: 14px;
-    top: 35%;
-    left: 7%;
-    position: absolute;
-    cursor: pointer;
+.container > .Card > .right> .adc3 > .sup{
+    width: 300px;
+    height: 75px;
+    background-color: #444654;
+    align-items: center;
+    padding-top: 17px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 13pt;
+}
+
+.container > .Card > .right> .adc3 >#bugado{
+    height: 100px;
 }
 
 .container > .submits{
@@ -282,5 +255,17 @@ main{
 
 
 .container > .footer {
-    
+    width: 920px;
+    height: 30px;
+    display: flex;
+    font-size: 9.5pt;
+    text-decoration: none;
+    color: #9A9B9F;
+    font-family: inter;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.container > .footer > a{
+    color: #9A9B9F;
 }
