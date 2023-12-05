@@ -27,7 +27,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Interface
 
-Você pode conferir o design da interface no [link do Figma]([https://www.figma.com/file/NDGcA8jeaDWX0GTo2KuR47/Sign-up-form-(Community)?type=design&node-id=0-1&mode=design&t=E9YTWPhBgAZfBIZN-0](https://www.figma.com/file/uqSY7IZjONiYCWS6rWAJvH/ChatGPT-User-Interface-(Community)?type=design&node-id=0-1&mode=design&t=sn42HGdiVwXT1Lw5-0)) para ter uma visão detalhada de como o projeto se parece.
+Você pode conferir o design da interface no [link do Figma](https://www.figma.com/file/mERnOMC2O9HJY2ErGj8KpX/ChatGPT-User-Interface-(Community)?type=design&node-id=0-1&mode=design&t=1X8EurAMszOY1boX-0) para ter uma visão detalhada de como o projeto se parece.
 
 ## Preview
 
