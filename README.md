@@ -31,8 +31,7 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Preview
 
-![preview]
-
+![Preview ChatGPT](https://github.com/GustavLira/Projeto-ChatGPT/assets/140671152/9a3bfa87-fd0d-4ea9-a031-d597da068f11)
 
 ## Deploy
 
